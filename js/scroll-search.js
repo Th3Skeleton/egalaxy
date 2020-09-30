@@ -730,7 +730,7 @@ $(document).ready(function() {
         }];
         $.each(game_data, function(key, value) {
             if (value.name.search(expression) != -1) {
-                $('#result').append('<li><a href="https://th3skeleton.github.io/egalaxy/s/' + value.url + '" class="list-group-item"><img src="https://cdn.jsdelivr.net/gh/emugalaxy-storage1/emugalaxy-storage1.github.io/thumbs/'+ value.image +'" data-loaded="true" style="width:40%;"><div class="list-group-text"> ' + value.name + '</div><span class="emu-sys">' + value.sys + '</span></a></li>');
+                $('#result').append('<li><a href="https://emugalaxy.dev/s/' + value.url + '" class="list-group-item"><img src="https://cdn.jsdelivr.net/gh/emugalaxy-storage1/emugalaxy-storage1.github.io/thumbs/'+ value.image +'" data-loaded="true" style="width:40%;"><div class="list-group-text"> ' + value.name + '</div><span class="emu-sys">' + value.sys + '</span></a></li>');
             }
         });
     });
