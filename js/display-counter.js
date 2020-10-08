@@ -1304,6 +1304,92 @@ function displayVisitCountforYOSHISTORY() {
 	})
 };
 
+// GameBoy Games
+
+const countdkgb = document.getElementById('dkgb-display');
+
+displayVisitCountdkgb();
+
+function displayVisitCountdkgb() {
+	fetch('https://api.countapi.xyz/get/dkgb/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		countdkgb.innerHTML = res.value;
+	})
+};
+
+const countkirbdlgb = document.getElementById('kirbdlgb-display');
+
+displayVisitCountkirbdlgb();
+
+function displayVisitCountkirbdlgb() {
+	fetch('https://api.countapi.xyz/get/kirbdlgb/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		countkirbdlgb.innerHTML = res.value;
+	})
+};
+
+const countsmland = document.getElementById('smland-display');
+
+displayVisitCountsmland();
+
+function displayVisitCountsmland() {
+	fetch('https://api.countapi.xyz/get/smland/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		countsmland.innerHTML = res.value;
+	})
+};
+
+const countsmland2 = document.getElementById('smland2-display');
+
+displayVisitCountsmland2();
+
+function displayVisitCountsmland2() {
+	fetch('https://api.countapi.xyz/get/smland2/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		countsmland2.innerHTML = res.value;
+	})
+};
+
+const counttetrisgb = document.getElementById('tetrisgb-display');
+
+displayVisitCounttetrisgb();
+
+function displayVisitCounttetrisgb() {
+	fetch('https://api.countapi.xyz/get/tetrisgb/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		counttetrisgb.innerHTML = res.value;
+	})
+};
+
+const countzeldaawakgb = document.getElementById('zeldaawakgb-display');
+
+displayVisitCountzeldaawakgb();
+
+function displayVisitCountzeldaawakgb() {
+	fetch('https://api.countapi.xyz/get/zeldaawakgb/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		countzeldaawakgb.innerHTML = res.value;
+	})
+};
+
+const countwariogb = document.getElementById('wariogb-display');
+
+displayVisitCountwariogb();
+
+function displayVisitCountwariogb() {
+	fetch('https://api.countapi.xyz/get/wariogb/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		countwariogb.innerHTML = res.value;
+	})
+};
+
 // GBA Games
 
 const countadvancewars = document.getElementById('advw-display');
@@ -1689,6 +1775,18 @@ function displayVisitCountacwwds() {
 	.then(res => res.json())
 	.then(res => {
 		countacwwds.innerHTML = res.value;
+	})
+};
+
+const countdra2life = document.getElementById('dra2life-display');
+
+displayVisitCountdra2life();
+
+function displayVisitCountdra2life() {
+	fetch('https://api.countapi.xyz/get/dra2life/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		countdra2life.innerHTML = res.value;
 	})
 };
 

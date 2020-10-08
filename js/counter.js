@@ -160,7 +160,15 @@ var liList = [
 	'<a href="https://th3skeleton.github.io/egalaxy/n64/143-rayman-2-the-great-escape.html" class="box"><img alt="" src="https://emugalaxy-storage1.github.io/thumbs/n64/ray2.png" data-loaded="true"><div class="badge">N64</div><div class="plays-span"><span id="ray2-display">0</span><span> Plays</span></div><span class="box-title">Rayman 2: The Great Escape</span></a>',
 	'<a href="https://th3skeleton.github.io/egalaxy/n64/142-mortal-kombat-4.html" class="box"><img alt="" src="https://emugalaxy-storage1.github.io/thumbs/n64/mk4.png" data-loaded="true"><div class="badge">N64</div><div class="plays-span"><span id="mk4-display">0</span><span> Plays</span></div><span class="box-title">Mortal Kombat 4</span></a>',
 	'<a href="https://th3skeleton.github.io/egalaxy/genesis/141-sonic-legacy.html" class="box"><img alt="" src="https://emugalaxy-storage1.github.io/thumbs/gen/soniclegacy.png" data-loaded="true"><div class="badge">SEGA</div><div class="plays-span"><span id="sonicle-display">0</span><span> Plays</span></div><span class="box-title">Sonic Legacy by Gamma V</span></a>',
-	'<a href="https://th3skeleton.github.io/egalaxy/genesis/140-sonic-the-hedgehog-classic-heroes.html" class="box"><img alt="" src="https://emugalaxy-storage1.github.io/thumbs/gen/classicheroes.png" data-loaded="true"><div class="badge">SEGA</div><div class="plays-span"><span id="sonicch-display">0</span><span> Plays</span></div><span class="box-title">Sonic the Hedgehog - Classic Heroes by ColinC10</span></a>'
+	'<a href="https://th3skeleton.github.io/egalaxy/genesis/140-sonic-the-hedgehog-classic-heroes.html" class="box"><img alt="" src="https://emugalaxy-storage1.github.io/thumbs/gen/classicheroes.png" data-loaded="true"><div class="badge">SEGA</div><div class="plays-span"><span id="sonicch-display">0</span><span> Plays</span></div><span class="box-title">Sonic the Hedgehog - Classic Heroes by ColinC10</span></a>',
+	'<a href="https://th3skeleton.github.io/egalaxy/nds/154-drawn-to-life-spongebob.html" class="box"><img alt="" src="https://emugalaxy-storage1.github.io/thumbs/nds/draw2lifesb.png" data-loaded="true"><div class="badge">NDS</div><div class="plays-span"><span id="dra2life-display">0</span><span> Plays</span></div><span class="box-title">Drawn to Life - SpongeBob SquarePants Edition</span></a>',
+	'<a href="https://th3skeleton.github.io/egalaxy/gb/153-kirby-dream-land.html" class="box"><img alt="" src="https://emugalaxy-storage1.github.io/thumbs/gb/kirbdreamland.png" data-loaded="true"><div class="badge">GB</div><div class="plays-span"><span id="kirbdlgb-display">0</span><span> Plays</span></div><span class="box-title">Kirbys Dream Land</span></a>',
+	'<a href="https://th3skeleton.github.io/egalaxy/gb/152-super-mario-land-2.html" class="box"><img alt="" src="https://emugalaxy-storage1.github.io/thumbs/gb/smland2.png" data-loaded="true"><div class="badge">GB</div><div class="plays-span"><span id="smland2-display">0</span><span> Plays</span></div><span class="box-title">Super Mario Land 2: 6 Golden Coins</span></a>',
+	'<a href="https://th3skeleton.github.io/egalaxy/gb/151-tetris.html" class="box"><img alt="" src="https://emugalaxy-storage1.github.io/thumbs/gb/tetris.png" data-loaded="true"><div class="badge">GB</div><div class="plays-span"><span id="tetrisgb-display">0</span><span> Plays</span></div><span class="box-title">Tetris</span></a>',
+	'<a href="https://th3skeleton.github.io/egalaxy/gb/150-zelda-links-awakening.html" class="box"><img alt="" src="https://emugalaxy-storage1.github.io/thumbs/gb/linksawake.png" data-loaded="true"><div class="badge">GB</div><div class="plays-span"><span id="zeldaawakgb-display">0</span><span> Plays</span></div><span class="box-title">The Legend of Zelda: Links Awakening</span></a>',
+	'<a href="https://th3skeleton.github.io/egalaxy/gb/149-wario-land.html" class="box"><img alt="" src="https://emugalaxy-storage1.github.io/thumbs/gb/warioland.png" data-loaded="true"><div class="badge">GB</div><div class="plays-span"><span id="wariogb-display">0</span><span> Plays</span></div><span class="box-title">Wario Land: Super Mario Land 3</span></a>',
+	'<a href="https://th3skeleton.github.io/egalaxy/gb/148-donkey-kong.html" class="box"><img alt="" src="https://emugalaxy-storage1.github.io/thumbs/gb/dkong.png" data-loaded="true"><div class="badge">GB</div><div class="plays-span"><span id="dkgb-display">0</span><span> Plays</span></div><span class="box-title">Donkey Kong</span></a>',
+	'<a href="https://th3skeleton.github.io/egalaxy/gb/147-super-mario-land.html" class="box"><img alt="" src="https://emugalaxy-storage1.github.io/thumbs/gb/smland.png" data-loaded="true"><div class="badge">GB</div><div class="plays-span"><span id="smland-display">0</span><span> Plays</span></div><span class="box-title">Super Mario Land</span></a>'
 ];
 // The Variables
 var ul = document.querySelector('#list');
@@ -1480,6 +1488,92 @@ function displayVisitCountforYOSHISTORY() {
 	})
 };
 
+// GameBoy Games
+
+const countdkgb = document.getElementById('dkgb-display');
+
+displayVisitCountdkgb();
+
+function displayVisitCountdkgb() {
+	fetch('https://api.countapi.xyz/get/dkgb/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		countdkgb.innerHTML = res.value;
+	})
+};
+
+const countkirbdlgb = document.getElementById('kirbdlgb-display');
+
+displayVisitCountkirbdlgb();
+
+function displayVisitCountkirbdlgb() {
+	fetch('https://api.countapi.xyz/get/kirbdlgb/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		countkirbdlgb.innerHTML = res.value;
+	})
+};
+
+const countsmland = document.getElementById('smland-display');
+
+displayVisitCountsmland();
+
+function displayVisitCountsmland() {
+	fetch('https://api.countapi.xyz/get/smland/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		countsmland.innerHTML = res.value;
+	})
+};
+
+const countsmland2 = document.getElementById('smland2-display');
+
+displayVisitCountsmland2();
+
+function displayVisitCountsmland2() {
+	fetch('https://api.countapi.xyz/get/smland2/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		countsmland2.innerHTML = res.value;
+	})
+};
+
+const counttetrisgb = document.getElementById('tetrisgb-display');
+
+displayVisitCounttetrisgb();
+
+function displayVisitCounttetrisgb() {
+	fetch('https://api.countapi.xyz/get/tetrisgb/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		counttetrisgb.innerHTML = res.value;
+	})
+};
+
+const countzeldaawakgb = document.getElementById('zeldaawakgb-display');
+
+displayVisitCountzeldaawakgb();
+
+function displayVisitCountzeldaawakgb() {
+	fetch('https://api.countapi.xyz/get/zeldaawakgb/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		countzeldaawakgb.innerHTML = res.value;
+	})
+};
+
+const countwariogb = document.getElementById('wariogb-display');
+
+displayVisitCountwariogb();
+
+function displayVisitCountwariogb() {
+	fetch('https://api.countapi.xyz/get/wariogb/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		countwariogb.innerHTML = res.value;
+	})
+};
+
 // GBA Games
 
 const countadvancewars = document.getElementById('advw-display');
@@ -1865,6 +1959,18 @@ function displayVisitCountacwwds() {
 	.then(res => res.json())
 	.then(res => {
 		countacwwds.innerHTML = res.value;
+	})
+};
+
+const countdra2life = document.getElementById('dra2life-display');
+
+displayVisitCountdra2life();
+
+function displayVisitCountdra2life() {
+	fetch('https://api.countapi.xyz/get/dra2life/emugalaxy')
+	.then(res => res.json())
+	.then(res => {
+		countdra2life.innerHTML = res.value;
 	})
 };
 
