@@ -103,10 +103,30 @@ $(document).ready(function() {
             "url": "n64/102-banjo-kazooie.html",
             "sys": "N64"
         }, {
+            "name": "Batman - The Video Game",
+            "image": "nes/batman.png",
+            "url": "nes/162-batman.html",
+            "sys": "NES"
+        }, {
             "name": "Blades of Steel",
             "image": "nes/bos.png",
             "url": "nes/1-blades-of-steel.html",
             "sys": "NES"
+        }, {
+            "name": "Bubble Bobble",
+            "image": "arcade/bublbobl.png",
+            "url": "arcade/164-bubble-bobble.html",
+            "sys": "ARCADE"
+        }, {
+            "name": "Burger Time",
+            "image": "arcade/burgertime.png",
+            "url": "arcade/172-burger-time.html",
+            "sys": "ARCADE"
+        }, {
+            "name": "Buster Bros",
+            "image": "arcade/bbros.png",
+            "url": "arcade/163-buster-bros.html",
+            "sys": "ARCADE"
         }, {
             "name": "California Game",
             "image": "nes/california.png",
@@ -178,6 +198,11 @@ $(document).ready(function() {
             "url": "nes/52-donkey-kong.html",
             "sys": "NES"
         }, {
+            "name": "Donkey Kong",
+            "image": "gb/dkong.png",
+            "url": "gb/148-donkey-kong.html",
+            "sys": "GB"
+        }, {
             "name": "Donkey Kong Country",
             "image": "snes/dkc.png",
             "url": "snes/10-donkey-kong-country.html",
@@ -192,6 +217,11 @@ $(document).ready(function() {
             "image": "snes/dkc3.png",
             "url": "snes/12-donkey-kong-country-3.html",
             "sys": "SNES"
+        }, {
+            "name": "Drawn to Life - SpongeBob SquarePants Edition",
+            "image": "nds/dra2life.png",
+            "url": "nds/154-drawn-to-life-spongebob.html",
+            "sys": "NDS"
         }, {
             "name": "Duke Nukem 64",
             "image": "n64/Duke Nukem 64.png",
@@ -253,6 +283,11 @@ $(document).ready(function() {
             "url": "gba/92-fire-emblem-the-sacred-stones.html",
             "sys": "GBA"
         }, {
+            "name": "Galaga",
+            "image": "arcade/galaga.png",
+            "url": "arcade/166-galaga.html",
+            "sys": "ARCADE"
+        }, {
             "name": "Ghosts'n Goblins",
             "image": "nes/ghostsngoblins.png",
             "url": "nes/53-ghosts-n-goblins.html",
@@ -304,9 +339,14 @@ $(document).ready(function() {
             "sys": "GBA"
         }, {
             "name": "Kirbys Dream Course",
-            "image": "nes/kirby.png",
+            "image": "snes/kirbydc.png",
             "url": "snes/133-kirbys-dream-course.html",
             "sys": "SNES"
+        }, {
+            "name": "Kirbys Dream Land",
+            "image": "gb/kirbdreamland.png",
+            "url": "gb/153-kirby-dream-land.html",
+            "sys": "GB"
         }, {
             "name": "Kirbys Mass Attack",
             "image": "nds/kirbyma.png",
@@ -314,7 +354,7 @@ $(document).ready(function() {
             "sys": "NDS"
         }, {
             "name": "Kirby Super Star",
-            "image": "nes/kirby.png",
+            "image": "snes/kirbyss.png",
             "url": "nes/132-kirby-super-star.html",
             "sys": "SNES"
         }, {
@@ -348,6 +388,16 @@ $(document).ready(function() {
             "url": "gba/95-mario-and-luigi-superstar-saga.html",
             "sys": "GBA"
         }, {
+            "name": "Mario & Sonic at the Olympic Games",
+            "image": "nds/marsonolyp.png",
+            "url": "nds/157-mario-and-sonic-olympic-games.html",
+            "sys": "NDS"
+        }, {
+            "name": "Mario Bros",
+            "image": "arcade/mario.png",
+            "url": "arcade/168-mario-bros.html",
+            "sys": "ARCADE"
+        }, {
             "name": "Mario Golf - Advance Tour",
             "image": "gba/mario-golf.png",
             "url": "gba/96-mario-golf-advance-tour.html",
@@ -361,6 +411,26 @@ $(document).ready(function() {
             "name": "Mario Kart DS",
             "image": "nds/mkds.png",
             "url": "nds/138-mario-kart-ds.html",
+            "sys": "NDS"
+        }, {
+            "name": "Mario Party",
+            "image": "n64/mparty.png",
+            "url": "n64/173-mario-party.html",
+            "sys": "N64"
+        }, {
+            "name": "Mario Party 2",
+            "image": "n64/mparty2.png",
+            "url": "n64/174-mario-party-2.html",
+            "sys": "N64"
+        }, {
+            "name": "Mario Party 3",
+            "image": "n64/mparty3.png",
+            "url": "n64/175-mario-party-3.html",
+            "sys": "N64"
+        }, {
+            "name": "Mario Party DS",
+            "image": "nds/mpartyds.png",
+            "url": "nds/156-mario-party-ds.html",
             "sys": "NDS"
         }, {
             "name": "Mario Tennis",
@@ -433,6 +503,11 @@ $(document).ready(function() {
             "url": "genesis/118-mortal-kombat-2-unlimited.html",
             "sys": "SEGA"
         }, {
+            "name": "Mortal Kombat 3",
+            "image": "arcade/mk3r20.png",
+            "url": "genesis/161-mortal-kombat-3.html",
+            "sys": "SEGA"
+        }, {
             "name": "Mortal Kombat 4",
             "image": "n64/mk4.png",
             "url": "n64/142-mortal-kombat-4.html",
@@ -472,6 +547,16 @@ $(document).ready(function() {
             "image": "nds/nsmb.png",
             "url": "nds/144-new-super-mario-bros.html",
             "sys": "NDS"
+        }, {
+            "name": "Pac-man",
+            "image": "arcade/pacman.png",
+            "url": "arcade/159-pacman.html",
+            "sys": "ARCADE"
+        }, {
+            "name": "Paper Mario",
+            "image": "n64/pmario.png",
+            "url": "n64/158-paper-mario.html",
+            "sys": "N64"
         }, {
             "name": "Pokemon Diamond Version",
             "image": "nds/pokedia.png",
@@ -528,6 +613,11 @@ $(document).ready(function() {
             "url": "gba/77-pokemon-x-&-y.html",
             "sys": "GBA"
         }, {
+            "name": "Puzzle Bobble 2",
+            "image": "arcade/pbobble2.png",
+            "url": "arcade/171-puzzle-bobble-2.html",
+            "sys": "ARCADE"
+        }, {
             "name": "Rayman 2: The Great Escape",
             "image": "n64/ray2.png",
             "url": "n64/143-rayman-2-the-great-escape.html",
@@ -557,6 +647,11 @@ $(document).ready(function() {
             "image": "gba/sonic-advance-3.png",
             "url": "gba/80-sonic-advance-3.html",
             "sys": "GBA"
+        }, {
+            "name": "Sonic CD",
+            "image": "segacd/sonic-cd.png",
+            "url": "segacd/155-sonic-cd.html",
+            "sys": "SEGACD"
         }, {
             "name": "Sonic Legacy by Gamma V",
             "image": "gen/soniclegacy.png",
@@ -593,6 +688,11 @@ $(document).ready(function() {
             "url": "genesis/140-sonic-the-hedgehog-classic-heroes.html",
             "sys": "SEGA"
         }, {
+            "name": "Space Invaders",
+            "image": "arcade/invaders.png",
+            "url": "arcade/167-space-invaders.html",
+            "sys": "ARCADE"
+        }, {
             "name": "Street Fighter 2: Turbo",
             "image": "snes/sf2t.png",
             "url": "snes/19-street-fighter-2-turbo.html",
@@ -607,6 +707,11 @@ $(document).ready(function() {
             "image": "snes/sbomb.png",
             "url": "snes/18-super-bomberman.html",
             "sys": "SNES"
+        }, {
+            "name": "Super Buster Bros",
+            "image": "arcade/sbbros.png",
+            "url": "arcade/165-super-buster-bros.html",
+            "sys": "ARCADE"
         }, {
             "name": "Super Mario 64",
             "image": "n64/sm64.png",
@@ -658,6 +763,16 @@ $(document).ready(function() {
             "url": "snes/9-super-mario-kart.html",
             "sys": "SNES"
         }, {
+            "name": "Super Mario Land",
+            "image": "gb/smland.png",
+            "url": "gb/147-super-mario-land.html",
+            "sys": "GB"
+        }, {
+            "name": "Super Mario Land 2: 6 Golden Coins",
+            "image": "gb/smland.png",
+            "url": "gb/147-super-mario-land.html",
+            "sys": "GB"
+        }, {
             "name": "Super Mario Ultimate by Silas",
             "image": "nes/smu.png",
             "url": "nes/27-super-mario-ultimate-hack.html",
@@ -683,11 +798,26 @@ $(document).ready(function() {
             "url": "snes/23-super-spongebob-kart-hack.html",
             "sys": "SNES"
         }, {
+            "name": "Sunset Riders",
+            "image": "arcade/ssriders.png",
+            "url": "arcade/169-sunset-riders.html",
+            "sys": "ARCADE"
+        }, {
+            "name": "Teenage Mutant Ninja Turtles",
+            "image": "arcade/tmnt.png",
+            "url": "arcade/170-teenage-mutant-ninja-turtles.html",
+            "sys": "ARCADE"
+        }, {
             "name": "Teenage Mutant Ninja Turtles IV - Turtles in Time",
-            "image": "snes/tetris2.png",
+            "image": "snes/tmnt4.png",
             "url": "snes/134-tmnt-4-turtles-in-time.html",
             "sys": "SNES"
-        },{
+        }, {
+            "name": "Tetris",
+            "image": "gb/tetris.png",
+            "url": "gb/151-tetris.html",
+            "sys": "GB"
+        }, {
             "name": "Tetris 2",
             "image": "snes/tetris2.png",
             "url": "snes/16-tetris-2.html",
@@ -708,15 +838,30 @@ $(document).ready(function() {
             "url": "gba/83-a-link-to-the-past-&-4-swords.html",
             "sys": "GBA"
         }, {
+            "name": "The Legend of Zelda - Links Awakening",
+            "image": "gb/linksawake.png",
+            "url": "gb/150-zelda-links-awakening.html",
+            "sys": "GB"
+        }, {
             "name": "The Legend of Zelda - The Minish Cap",
             "image": "gba/zelda-minish-cap.png",
             "url": "gba/84-the-minish-cap.html",
             "sys": "GBA"
         }, {
+            "name": "Ultimate Mortal Kombat 3",
+            "image": "arcade/umk3.png",
+            "url": "genesis/160-ultimate-mortal-kombat-3.html",
+            "sys": "SEGA"
+        }, {
             "name": "Wave Race 64",
             "image": "n64/Wave Race 64.png",
             "url": "n64/106-wave-race-64.html",
             "sys": "N64"
+        }, {
+            "name": "Wario Land: Super Mario Land 3",
+            "image": "gb/warioland.png",
+            "url": "gb/149-wario-land.html",
+            "sys": "GB"
         }, {
             "name": "Yoshis Island - Super Mario Advance 3",
             "image": "gba/mario-advance-3.png",
@@ -730,7 +875,7 @@ $(document).ready(function() {
         }];
         $.each(game_data, function(key, value) {
             if (value.name.search(expression) != -1) {
-                $('#result').append('<li><a href="https://th3skeleton.github.io/egalaxy/s/' + value.url + '" class="list-group-item"><img src="https://cdn.jsdelivr.net/gh/emugalaxy-storage1/emugalaxy-storage1.github.io/thumbs/'+ value.image +'" data-loaded="true" style="width:40%;"><div class="list-group-text"> ' + value.name + '</div><span class="emu-sys">' + value.sys + '</span></a></li>');
+                $('#result').append('<li><a href="https://th3skeleton.github.io/egalaxy/' + value.url + '" class="list-group-item"><img src="https://emugalaxy-storage1.github.io/thumbs/'+ value.image +'" data-loaded="true" style="width:40%;"><div class="list-group-text"> ' + value.name + '</div><span class="emu-sys">' + value.sys + '</span></a></li>');
             }
         });
     });
